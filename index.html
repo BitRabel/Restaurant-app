@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodhub</title>
+
+  <!--
+    - custom css link 
+  -->
+  <link rel="stylesheet" href="foodhub.css">
+  <link rel="stylesheet" href="media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+    - main container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <a href="#">
+            <img src="logo.png" alt="logo" width="130">
+          </a>
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="nav-link">Our Menu</a>
+            </li>
+
+            <li>
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <button class="shopping-cart-btn">
+              <img src="shopingcart1.png" alt="shopping cart icon" width="90">
+              <span class="count">5</span>
+            </button>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="cart-box">
+
+        <ul class="cart-box-ul">
+
+          <h4 class="cart-h4">Your order.</h4>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="momos.png" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Momos</h5>
+              <p class="product-price">
+                <span class="small">$</span>9
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="burger.png" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Burger</h5>
+              <p class="product-price">
+                <span class="small">$</span>14
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="french.png" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">French Fries</h5>
+              <p class="product-price">
+                <span class="small">$</span>4
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="pasta.jpeg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Pasta</h5>
+              <p class="product-price">
+                <span class="small">$</span>11
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="noodles.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Noodles</h5>
+              <p class="product-price">
+                <span class="small">$</span>19
+              </p>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="cart-btn-group">
+          <button class="btn btn-secondary">View order</button>
+          <button class="btn btn-primary">Checkout</button>
+        </div>
+
+      </div>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME SECTION
+      -->
+
+      <section class="home" id="home">
+
+        <div class="home-left">
+
+          <h1><p class="home-subtext">Hi, Welcome To Food Mahal</p></h1>
+
+          <h1 class="main-heading"> Bite Buzz</h1>
+
+          <h2><p class="home-text">
+            We do not cook,we create your emotions!
+          </p></h2>
+
+          <div class="btn-group">
+
+            <button class="Menu">
+              <img src="menu2" alt="shopping cart icon" width="790">
+              
+             </button>
+          
+
+            
+
+          </div>
+
+        </div>
+
+        <div class="home-right">
+
+          <img src="burger.png" alt="food image" class="food-img food-1" width="100" loading="lazy">
+          <img src="french.png" alt="food image" class="food-img food-2" width="100" loading="lazy">
+          <img src="momos.png" alt="food image" class="food-img food-3" width="100" loading="lazy">
+          <img src="Cold.jpeg" alt="food image" class="food-img food-4" width="100" loading="lazy">
+          <img src="noodles.jpg" alt="food image" class="food-img food-5" width="100" loading="lazy">
+          <img src="pasta.jpeg" alt="food image" class="food-img food-6" width="150" loading="lazy">
+          
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT SECTION
+      -->
+
+      <section class="about" id="about">
+
+        <div class="about-left">
+
+          <div class="img-box">
+            <img src="pasta.jpeg" alt="about image" class="about-img" width="250">
+          </div>
+
+          <div class="abs-content-box">
+            <div class="dotted-border">
+              <p class="number-lg">12</p>
+              <p class="text-md">Years <br> Experiense</p>
+            </div>
+          </div>
+
+          <img src="momos.png" alt="circle shape" class="shape shape-6" width="20">
+          <img src="noodles.jpg" alt="circle shape" class="shape shape-7" width="30">
+          <img src="pasta.jpeg" alt="ring shape" class="shape shape-8" width="35">
+          <img src="burger.png" alt="ring shape" class="shape shape-9" width="80">
+
+        </div>
+
+        <div class="about-right">
+
+          <h2 class="section-title">We are doing more than
+            you expect</h2>
+
+          <p class="section-text">
+            Welcome to our restaurant, where every dish tells a story and every bite is a journey. Step into a world of culinary delight, where flavors dance on your palate and memories are made at every table. Indulge in our exquisite menu crafted with passion and precision, where fresh ingredients meet skilled craftsmanship to create gastronomic masterpieces. From savory starters to decadent desserts, our menu offers something to tantalize every taste bud. Join us for an unforgettable dining experience where quality meets ambiance, and every visit leaves you craving more. Come, savor the moment with us, and let us elevate your dining experience to new heights.
+          </p>
+
+          
+
+          <img src="signature.jpg" alt="signature" class="signature" width="150">
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #SERVICES SECTION
+      -->
+
+      <section class="services" id="services">
+
+        <div class="service-card">
+
+          <p class="card-number">01</p>
+
+          <h3 class="card-heading">We are located in the city center</h3>
+
+          <p class="card-text">
+            
+Nestled in the vibrant heart of the city center, our culinary haven awaits, offering a delectable escape for food enthusiasts. Situated amidst the bustling streets and iconic landmarks, our restaurant embodies the essence of urban charm and gastronomic delight. Whether you're a local resident or a curious traveler, our central location makes us easily accessible, inviting you to immerse yourself in a world of tantalizing flavors and warm hospitality. 
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">02</p>
+
+          <h3 class="card-heading">Fresh ingredients from organic farms</h3>
+
+          <p class="card-text">
+            At our establishment, we take pride in sourcing only the freshest ingredients from local organic farms. With a commitment to sustainability and quality, we handpick each item to ensure that every dish we serve is bursting with flavor and nutrition. By partnering with organic farmers in our community, we support environmentally friendly practices while promoting the well-being of our customers.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">03</p>
+
+          <h3 class="card-heading">Our fast delivery @30 min Max.</h3>
+
+          <p class="card-text">
+            our lightning-fast delivery service, guaranteed to bring your favorite dishes to your doorstep in 30 minutes or less. We understand the importance of timely service, which is why we've optimized our delivery process to ensure that your meal arrives swiftly and piping hot. Whether you're craving a quick lunch or planning a cozy night in, you can rely on us to deliver your order promptly, allowing you to enjoy delicious food without the wait. 
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">04</p>
+
+          <h3 class="card-heading">Professional, experienced chefs</h3>
+
+          <p class="card-text">
+            our team of professional, experienced chefs who bring passion and expertise to every dish. With years of training and a dedication to their craft, our chefs are masters at creating unforgettable culinary experiences. From innovative fusion dishes to classic favorites, each creation reflects their commitment to quality and creativity.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">05</p>
+
+          <h3 class="card-heading">The highest standards of service</h3>
+
+          <p class="card-text">
+            From the moment you walk through our doors, you'll be greeted with warmth and attentiveness by our dedicated team. With a passion for excellence and a focus on customer satisfaction, we strive to exceed your expectations at every turn. Whether it's a special occasion or a casual dining experience, you can trust us to provide impeccable service tailored to your needs. 
+          </p>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PRODUCT SECTION
+      -->
+
+      <section class="product" id="menu">
+
+        <h2 class="section-title">Most popular dishes</h2>
+
+        <p class="section-text">
+          Momos! Dive into a world of flavor with our delectable selection of steamed or fried dumplings, bursting with savory fillings and served with a side of tantalizing dipping sauces. 
+        </p>
+
+        <div class="products-grid">
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="pasta.jpeg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">pasta</h3>
+
+                  <p class="product-price">
+                    <span class="small">$</span>11
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Pasta isn't just a delicious indulgence; it's also a wholesome choice for a balanced diet. Packed with complex carbohydrates, pasta provides a steady release of energy, keeping you fueled and focused throughout the day.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="burger.png" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Burger</h3>
+
+                  <p class="product-price">
+                    <span class="small">$</span>14
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Beyond just being a delicious treat, our burgers offer a range of advantages that make them an irresistible choice for any meal. Packed with high-quality protein from juicy beef patties or plant-based alternatives, our burgers help you build and repair muscle, keeping you strong and energized. 
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="momos.png" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegan</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Momos</h3>
+
+                  <p class="product-price">
+                    <span class="small">$</span>9
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  our delectable momos, and discover a plethora of benefits packed into every delightful bite! These steamed or fried dumplings aren't just a culinary delight; they're also a treasure trove of health benefits. Made with a delicate dough filled with a savory mixture of vegetables, meats, or seafood, momos offer a balanced combination of nutrients
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="french.png" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge red">
+                  <ion-icon name="flame"></ion-icon>
+                  <p>Hot</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">French Fries</h3>
+
+                  <p class="product-price">
+                    <span class="small">$</span>4
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  our French fries and unlock a world of surprising benefits with every mouthwatering bite! Beyond just being a beloved indulgence, French fries offer a range of advantages that might surprise you. Our fries are expertly prepared using premium potatoes, hand-cut to perfection, and fried to a golden crispiness that's simply irresistible.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="noodles.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegan</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Noodles</h3>
+
+                  <p class="product-price">
+                    <span class="small">$</span>19
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Noodles, a beloved staple in cuisines around the globe, offer an array of advantages that make them an irresistible choice for any meal. Made from wholesome ingredients like wheat, rice, or buckwheat, our noodles are a versatile canvas for creativity in the kitchen. 
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="Cold.jpeg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Cold Coffee</h3>
+
+                  <p class="product-price">
+                    <span class="small">$</span>14
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Our cold coffees are a delightful blend of rich, smooth espresso or cold brew coffee, expertly combined with creamy milk or dairy-free alternatives, and served over ice for a refreshing chill. Indulge in the creamy goodness of our classic iced lattes, or treat yourself to the bold flavors of our signature cold brews. Not only do our cold coffees provide a welcome pick-me-up any time of day, but they also offer a range of benefits to enhance your experience.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </div>
+      </section>
+   <!--
+        - #TESTIMONIALS SECTION
+      -->
+
+      <section class="testimonials" id="testimonials">
+
+        <h2 class="section-title">What our customers say?</h2>
+
+        <p class="section-text">
+          Delicious Momos that keep me coming back for more! The perfect blend of flavors and textures
+        </p>
+        <p class="section-text">
+          Great value for money – the quality of food far exceeds the price
+        </p>
+
+        <div class="testimonials-grid">
+
+          <div class="testimonials-card">
+
+            <h4 class="card-title">Very tasty</h4>
+
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              
+            </div>
+
+            <p class="testimonials-text">
+              Five stars all around! I've been on the hunt for the perfect Momos, and I've finally found them here. The dough is so soft and pillowy, and the filling is packed with flavor. Plus, the variety of dipping sauces they offer really elevate the experience. The ambiance of the restaurant is lovely as well – great for a casual dinner with friends or a cozy date night. I'll definitely be a regular here!
+            </p>
+
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="abhishek.jpg" alt="customer image" class="customer-img" width="190" loading="lazy">
+              </div>
+
+              <h5 class="customer-name">Abhishek</h5>
+            </div>
+
+          </div>
+
+          <div class="testimonials-card">
+          
+            <h4 class="card-title">I have lunch here every day</h4>
+          
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          
+            <p class="testimonials-text">
+              We stumbled upon this gem while exploring the city center, and I'm so glad we did! The Momos were hands down the best I've ever had. The flavors were incredibly authentic, and you can tell that they use high-quality ingredients. The service was top-notch too – our waiter was so knowledgeable and helped us navigate the menu. Can't wait to come back!
+            </p>
+          
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="prabhat.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+          
+              <h5 class="customer-name">Prabhat</h5>
+            </div>
+          
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+    <!--
+      - #FOOTER
+    -->
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+        <a href="#">
+          <img src="logo.png" alt="logo" class="footer-brand" width="130">
+        </a>
+
+        <div class="social-link">
+
+          <a href="https://github.com/BitRabel">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+
+          <a href="https://www.instagram.com/adityasingh9128438?igsh=MWV1MDN0eWx5a3Awcw==">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="https://www.facebook.com/profile.php?id=100049002732425&mibextid=kFxxJD">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+
+         
+
+        </div>
+
+        <p class="copyright">&copy; Copyright 2022 BitRabel. All Rights Reserved.</p>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="foodhub.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
